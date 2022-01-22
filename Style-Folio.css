@@ -1,0 +1,70 @@
+body
+{
+    background-image: url("images/f7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-color: rgb(13, 13, 15);
+    font-family: cursive;
+}
+
+main
+{
+    background-color: white;
+    width: 80%;
+    position: relative;
+    top: 10rem;
+    margin: auto;
+    filter: drop-shadow(0 0 0.30rem rgba(1, 35, 87, 0.842)); 
+    height: max-content;
+}
+
+h1
+{
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.pro-contents
+{
+
+}
+
+.strongbox
+{
+    
+   display: flex;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 2rem;
+   filter: drop-shadow(0 0 0.30rem rgba(1, 35, 87, 0.842)); 
+}
+
+.imgSB
+{
+    width: 40%;
+}
+.pSB
+{
+    width: 50%;
+    color: black;
+    margin: 10%
+    
+}
+.imglang
+{
+    
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fandf
+{
+    
+}
