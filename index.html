@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Blog Personnel</title>
+        <meta charset="utf-8" />
+        <link href="Style.css" rel="Stylesheet" />
+    </head>
 
-<head>
-    <title>Blog Personnel</title>
-    <meta charset="utf-8" />
-    <link href="Style.css" rel="Stylesheet" />
-</head>
-
-<body>
-    <div class="box">
-        <div class="input">
-            <input type="text" placeholder="Add Task" value="" id="input" />
-            <button onclick="add()" onkeypress="add()">Ajouter</button>
+    <body>
+        <!--div box contenant l'input et le bouton-->
+        <div class="box">
+            <div class="input">
+                <input type="text" placeholder="Add Task" value="" id="input" />
+                <!--Le onclick et onkeypress appellent la fonction "add()" lorsqu'un évenement est déclenclé-->
+                <button onclick="add()" onkeypress="add()">Ajouter</button>
+            </div>
         </div>
-    </div>
-    <div class="items-container">
-        <ul class="items">
-        </ul>
-    </div>
-
+        <!--Elements de la liste qui seront ajoutés-->
+        <div class="items-container">
+            <ul class="items">
+            </ul>
+        </div>
     <script src="index.js"></script>
-</body>
+    </body>
+</html> 
