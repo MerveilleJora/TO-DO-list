@@ -15,9 +15,6 @@ function add() {
         task.appendChild(text)
         text.classList.add('li-text')
         text.innerText = input.value
-        let removeBtn = document.createElement("span")
-        task.appendChild(removeBtn)
-        removeBtn.innerHTML = '<i class "fas fa-trash" onclick="deleTask(this)"></i>'
         input.value = "";
     }
 }
